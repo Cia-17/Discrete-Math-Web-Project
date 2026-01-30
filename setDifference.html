@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="outlook/seconddesign.css" />
+    <link rel="import" href="practicequestion1.html" />
+    <link rel="import" href="homepagediscrete.html" />
+    <title>Learn Sets</title>
+    <style>
+      video {
+        display: block;
+        margin: 0 auto;
+      }
+      .pcenter {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="banner">
+      <h1 class="page-title">
+        <span class="header-emoji">📚🌼</span>
+        Sets 101
+      </h1>
+      <button class="h1button">
+        <a href="aboutUs.html" target="_blank">About Us</a>
+      </button>
+    </div>
+
+    <div class="content-container">
+      <div class="sidemenu">
+        <h3>Table of Content</h3>
+        <ul class="table-of-content">
+          <li class="outer first-li">
+            <a href="tryingDiscreteCode.html">Definition</a>
+            <ul>
+              <li>
+                <a href="mainpage2.html">How sets are expressed</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="practicequestion1.html">Practice questions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="outer">
+            <a href="typesOfSets.html">Types of sets</a>
+            <ul>
+              <li>
+                <a href="typessetPart2.html">Subsets</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="practicequestion3.html">Practice questions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="outer">
+            <a href="setOperations.html">Set Operations</a>
+            <ul>
+              <li>
+                <a href="setDifference.html">Set Difference</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="symmetricSummary.html"
+                  >Symmetric difference and Summary</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="outer">
+            <a href="cartesianProduct.html">Cartesian Product/Cross Product</a>
+            <ul>
+              <li>
+                <a href="practicequestion4.html">Practice questions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <main>
+        <div class="main-text">
+          <!--Heading for this page-->
+
+          <a id="definition"></a>
+          <h2>Set Difference/ Relative Complement:</h2>
+          <p>
+            The set difference of sets A and B (denoted by A–B) is the set of
+            elements which are only in A but not in B. Hence, A−B={x|x∈A AND
+            x∉B}
+            <br /><br />
+            <strong> Example: </strong><br />
+            1. If A={10,11,12,13} and B={13,14,15}, then (A−B)={10,11,12} and
+            (B−A)={14,15}. Here, we can see (A−B)≠(B−A) <br /><br />
+            2. The difference of {1,3,5} and {1,2,3} is the set {5}; that is,
+            {1,3,5}−{1,2,3}={5}. This is different from the difference of
+            {1,2,3} and {1,3,5}, which is the set {2}. <br /><br />
+            3. The difference of the set of computer science majors at your
+            school and the set of mathematics majors at your school is the set
+            of all computer science majors at your school who are not also
+            mathematics majors.
+          </p>
+          <p>
+            <img src="media/a.jpeg-removebg-preview.png" alt="" /> <br />
+            <em
+              >The shaded area inside the circle that represents A and outside
+              the circle that represents B is the area that represents A −
+              B.</em
+            >
+          </p>
+          <h4>Complement of a Set:</h4>
+          <p>
+            The complement of a set A (denoted by A′) is the set of elements
+            which are not in set A. Hence, A′ ={x|x∉A}. More specifically, A′
+            =(U−A) where U is a universal set which contains all objects.
+            <br />
+            <br /><strong> Example:</strong><br />
+            1. If A={x|x belongs to set of odd integers} then A′={y|y does not
+            belong to set of odd integers} <br /><br />
+            2. Let A={a,e,i,o,u}(where the universal set is the set of letters
+            of the English alphabet). <br />
+            Then A={b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z}.
+          </p>
+          <p>
+            <img src="media/g.png" alt="" width="200px" />
+          </p>
+          <p class="pcenter">
+            This video will explain the concepts of union, intersection and
+            complement
+            <video
+              src="media/1120(2).mp4"
+              type="video/mp4"
+              controls
+              width="400px"
+            ></video>
+          </p>
+
+          <!-- <a id="practice-q1"></a>
+          <a href="practicequestion1.html" class="practiceq-link"
+            >practice questions here</a
+          > -->
+
+          <div class="navigation">
+            <button class="next-button">
+              <a href="setOperations.html">Back</a>
+            </button>
+            <button class="next-button">
+              <a href="symmetricSummary.html">Next Page</a>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

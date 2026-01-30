@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f5f1fe;
+  margin: 0;
+  padding: 0;
+  line-height: 26px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 2px;
+  background: #ff91a4;
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.header-emoji {
+  font-style: normal;
+  padding-left: 5px;
+}
+.page-title {
+  display: inline;
+  font-weight: 700;
+  font-style: bold;
+}
+.h1button {
+  padding: 7px 10px;
+  margin-right: 50px;
+  border: none;
+  border-radius: 12px;
+  background-color: white;
+  transition: all 200ms ease-in;
+}
+.h1button a {
+  text-decoration: none;
+  color: #ff91a4;
+}
+.h1button:hover {
+  background: #869f77;
+  color: white;
+  cursor: pointer;
+}
+.content-container {
+  display: flex;
+  gap: 50px;
+  padding: 20px;
+}
+.sidemenu {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  width: 400px;
+  max-height: 720px;
+  border: 3px solid blueviolet;
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.sidemenu .outer {
+  padding-top: 12px;
+}
+.sidemenu .first-li {
+  padding-top: 5px;
+}
+.sidemenu a {
+  color: blueviolet;
+  text-decoration: none;
+}
+.sidemenu ul ul {
+  list-style-type: disc;
+}
+.sidemenu h3 {
+  text-align: center;
+  margin: 3px 0 0 0;
+}
+.sidemenu a:hover {
+  text-decoration: underline;
+}
+
+.main-text {
+  background: #ffffff;
+  color: black;
+  max-width: 873.8px;
+  padding: 20px;
+  border-radius: 12px;
+  box-sizing: border-box;
+}
+.next-button {
+  display: block;
+  margin: 0 auto;
+  padding: 7px 10px;
+  margin-top: 5px;
+  margin-right: 50px;
+  border: none;
+  border-radius: 12px;
+  color: green;
+  transition: all 200ms ease-in;
+}
+.next-button a {
+  color: green;
+}
+
+.next-button:hover {
+  opacity: 87%;
+}
+h2 {
+  text-align: center;
+}
+.sub-heading {
+  text-align: center;
+}
+.practiceq-link:hover {
+  text-decoration: underline;
+  opacity: 87%;
+}
+.navigation {
+  display: flex;
+  margin: 24px;
+  justify-content: space-around;
+}
+img {
+  width: 350px;
+}
+.basketimg {
+  display: block;
+  margin: 0 auto;
+}
+.bardesign {
+  color: red;
+  font-weight: 600;
+}
+img,
+iframe {
+  display: block;
+  margin: 0 auto;
+}
+.center-text {
+  text-align: center;
+  margin-top: -10px;
+}

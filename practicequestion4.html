@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice question 4</title>
+    <style>
+      label {
+        display: block;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(171, 116, 223);
+      }
+      .exit-buttons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .quiz {
+        margin: 30px;
+        border: 2px solid blueviolet;
+        border-radius: 23px;
+        padding: 23px;
+      }
+      .feedback {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Cartesian Product And Cardinality</h2>
+      <div class="quiz">
+        <form action="">
+          <h4>
+            Q1: What is the Cartesian product of sets A={1,2} and B= {x,y} ?
+          </h4>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" />
+            {1x,2y}\{1x, 2y\}
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="true" />
+            {(1,x),(1,y),(2,x),(2,y)}
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" />
+            {1+x,2+y}
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" />
+            None of the above
+          </label>
+          <div class="feedback" id="feedback1"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q2: If A×B=B×AA , what does this imply about sets AAA and BBB?
+          </h4>
+          <label
+            ><input type="radio" name="question2" data-correct="false" /> A⊂BA
+          </label>
+          <label
+            ><input type="radio" name="question2" data-correct="true" /> A=BA =
+            BA=B</label
+          >
+          <label
+            ><input type="radio" name="question2" data-correct="false" /> A≠BA
+          </label>
+          <label
+            ><input type="radio" name="question2" data-correct="false" /> No
+            implication
+          </label>
+          <div class="feedback" id="feedback2"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q3: What is the Cartesian product of a set AAA with itself called?
+          </h4>
+          <label
+            ><input type="radio" name="question3" data-correct="false" />
+            Self-product
+          </label>
+          <label
+            ><input type="radio" name="question3" data-correct="false" />
+            Reflexive product</label
+          >
+          <label
+            ><input type="radio" name="question3" data-correct="true" />
+            Cartesian square</label
+          >
+          <label
+            ><input type="radio" name="question3" data-correct="false" /> Power
+            set</label
+          >
+          <div class="feedback" id="feedback3"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q4: If ∣A∣=3|A| = 3∣A∣=3 and ∣B∣=2|B| = 2∣B∣=2, what is ∣A×B∣|A
+            \times B|∣A×B∣?
+          </h4>
+          <label
+            ><input type="radio" name="question4" data-correct="false" /> 2
+          </label>
+          <label
+            ><input type="radio" name="question4" data-correct="false" />
+            3</label
+          >
+          <label
+            ><input type="radio" name="question4" data-correct="false" />
+            5</label
+          >
+          <label
+            ><input type="radio" name="question4" data-correct="true" /> 6
+          </label>
+          <div class="feedback" id="feedback4"></div>
+        </form>
+
+        <form action="">
+          <h4>Q5: The Cartesian product of sets AAA and BBB results in:</h4>
+          <label
+            ><input type="radio" name="question5" data-correct="true" /> A set
+            of pairs</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="false" /> A
+            subset of AAA</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="false" /> An
+            intersection of AAA and BBB</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="false" /> A
+            union of AAA and BBB</label
+          >
+          <div class="feedback" id="feedback5"></div>
+        </form>
+
+        <form action="">
+          <h4>Q6: What is the cardinality of a set A={2,4,6} ?</h4>
+          <label>
+            <input type="radio" name="question6" id="" data-correct="false" /> 2
+          </label>
+          <label>
+            <input type="radio" name="question6" id="" data-correct="false" /> 3
+          </label>
+          <label>
+            <input type="radio" name="question6" id="" data-correct="true" /> 4
+          </label>
+          <label>
+            <input type="radio" name="question6" id="" data-correct="false" /> 6
+          </label>
+          <div class="feedback" id="feedback6"></div>
+        </form>
+
+        <form action="">
+          <h4>Q7: How many subsets does a set with 4 elements have?</h4>
+          <label
+            ><input type="radio" name="question7" data-correct="false" /> 8
+          </label>
+          <label
+            ><input type="radio" name="question7" data-correct="false" />
+            12</label
+          >
+          <label
+            ><input type="radio" name="question7" data-correct="true" /> 16
+          </label>
+          <label
+            ><input type="radio" name="question7" data-correct="false" />
+            24</label
+          >
+          <div class="feedback" id="feedback7"></div>
+        </form>
+
+        <form action="">
+          <h4>Q8: What is the power set of {a,b}?</h4>
+          <label
+            ><input type="radio" name="question8" data-correct="false" />
+            {{a},{b}}
+          </label>
+          <label
+            ><input type="radio" name="question8" data-correct="true" />
+            {∅,{a},{b},{a,b}}</label
+          >
+          <label
+            ><input type="radio" name="question8" data-correct="false" />
+            {∅,a,b}</label
+          >
+          <label
+            ><input type="radio" name="question8" data-correct="false" />
+            {{a,b}}</label
+          >
+          <div class="feedback" id="feedback8"></div>
+        </form>
+        <br />
+      </div>
+      <br />
+    </div>
+    <script src="jscript/quiz1.js"></script>
+  </body>
+</html>

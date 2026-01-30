@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice question 3</title>
+    <style>
+      label {
+        display: block;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(171, 116, 223);
+      }
+      .exit-buttons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .quiz {
+        margin: 30px;
+        border: 2px solid blueviolet;
+        border-radius: 23px;
+        padding: 23px;
+      }
+      .feedback {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Meaning of Symbols Used in Sets</h2>
+      <div class="quiz">
+        <form action="">
+          <h4>Q1: What does the symbol ⊆ represent?</h4>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" />
+            Proper subset
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="true" />
+            Subset
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" />
+            Superset
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" />
+            Complement
+          </label>
+          <div class="feedback" id="feedback1"></div>
+        </form>
+
+        <form action="">
+          <h4>Q2: Which of the following denotes a proper subset?</h4>
+          <label
+            ><input type="radio" name="question2" data-correct="false" /> ⊆
+          </label>
+          <label
+            ><input type="radio" name="question2" data-correct="false" />
+            ⊃</label
+          >
+          <label
+            ><input type="radio" name="question2" data-correct="true" /> ⊂
+          </label>
+          <label
+            ><input type="radio" name="question2" data-correct="false" /> ∩
+          </label>
+          <div class="feedback" id="feedback2"></div>
+        </form>
+
+        <form action="">
+          <h4>Q3: What does the symbol ∈ mean in set theory?</h4>
+          <label
+            ><input type="radio" name="question3" data-correct="false" />
+            Intersection
+          </label>
+          <label
+            ><input type="radio" name="question3" data-correct="true" /> Belongs
+            to</label
+          >
+          <label
+            ><input type="radio" name="question3" data-correct="false" />
+            Union</label
+          >
+          <label
+            ><input type="radio" name="question3" data-correct="false" />
+            Complement</label
+          >
+          <div class="feedback" id="feedback3"></div>
+        </form>
+
+        <form action="">
+          <h4>Q4: What symbol represents "intersection" between sets?</h4>
+          <label
+            ><input type="radio" name="question4" data-correct="false" /> ∪
+          </label>
+          <label
+            ><input type="radio" name="question4" data-correct="true" />
+            ∩</label
+          >
+          <label
+            ><input type="radio" name="question4" data-correct="false" /> ⊆
+          </label>
+          <label
+            ><input type="radio" name="question4" data-correct="false" /> ∖
+          </label>
+          <div class="feedback" id="feedback4"></div>
+        </form>
+
+        <form action="">
+          <h4>Q5: Which symbol represents the "union" of sets?</h4>
+          <label
+            ><input type="radio" name="question5" data-correct="true" />
+            ∪</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="false" />
+            ∩</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="false" />
+            ∈</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="false" />
+            ⊂</label
+          >
+          <div class="feedback" id="feedback5"></div>
+        </form>
+        <br />
+      </div>
+      <br />
+    </div>
+    <script src="jscript/quiz1.js"></script>
+  </body>
+</html>

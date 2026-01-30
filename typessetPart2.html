@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="outlook/seconddesign.css" />
+    <link rel="import" href="practicequestion1.html" />
+    <link rel="import" href="homepagediscrete.html" />
+    <title>Learn Sets</title>
+  </head>
+  <body>
+    <div class="banner">
+      <h1 class="page-title">
+        <span class="header-emoji">📚🌼</span>
+        Sets 101
+      </h1>
+      <button class="h1button">
+        <a href="aboutUs.html" target="_blank">About Us</a>
+      </button>
+    </div>
+
+    <div class="content-container">
+      <div class="sidemenu">
+        <h3>Table of Content</h3>
+        <ul class="table-of-content">
+          <li class="outer first-li">
+            <a href="tryingDiscreteCode.html">Definition</a>
+            <ul>
+              <li>
+                <a href="mainpage2.html">How sets are expressed</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="practicequestion1.html">Practice questions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="outer">
+            <a href="typesOfSets.html">Types of sets</a>
+            <ul>
+              <li>
+                <a href="typessetPart2.html">Subsets</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="practicequestion3.html">Practice questions</a>
+              </li>
+            </ul>
+          </li>
+          <li class="outer">
+            <a href="setOperations.html">Set Operations</a>
+            <ul>
+              <li>
+                <a href="setDifference.html">Set Difference</a>
+              </li>
+            </ul>
+            <ul>
+              <li>
+                <a href="symmetricSummary.html"
+                  >Symmetric difference and Summary</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="outer">
+            <a href="cartesianProduct.html">Cartesian Product/Cross Product</a>
+            <ul>
+              <li>
+                <a href="practicequestion4.html">Practice questions</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <main>
+        <div class="main-text">
+          <!--Heading for this page-->
+
+          <a id="definition"></a>
+          <h2>Subsets</h2>
+          <p>
+            A set whose elements are all contained within another set. The set A
+            is a subset of B , if and only if every element of A is also an
+            element of B represented with the symbol A ⊆ B. However if there are
+            elements in a set A that are not in set B. A is not a subset of B.
+            This is denoted as A⊈B
+          </p>
+          <p>
+            Note that to show that A is not a subset of B we only need to find a
+            single x ∈ A such that x∈B. Also, this can be prooved by showing
+            that if x belongs to A then x also belongs to B.
+          </p>
+          <p>
+            <strong> Note: </strong> Every set is a subset of itself. The empty
+            set is a subset of every set.
+          </p>
+          <p>
+            <strong> Examples:</strong><br />
+            1. The set of all odd positive integers less than 10 is a subset of
+            the set of all positive integers less than 10. <br />
+            2. The set of rational numbers is a subset of the set of real
+            numbers.
+            <br />
+            3. The set of all computer science majors at your school is a subset
+            of the set of all students at your school. <br />
+          </p>
+          <p>
+            <img src="media/d.jpeg.jpg" alt="subset image" />
+          </p>
+
+          <p>
+            <strong> Proper subset</strong>
+            When we wish to emphasize that a set A is a subset of a set B but
+            that A= B, we write A⊂B and say that A is a proper subset of B. For
+            A ⊂ B to be true, it must be the case that A⊆B and there must exist
+            an element x of B that is not an element of A. That is, A is a
+            proper subset of B if and only if ∀x(x ∈ A →x ∈B) ∧ ∃x(x∈B ∧ x∈A)
+          </p>
+          <p>
+            <strong> Power Set: </strong> The set of all subsets of a given set
+            including the empty set. The cardinality of a power set of n number
+            of elements is 2n.
+          </p>
+          <p>
+            Given a set S, the power set of S is the set of all subsets of the
+            set S. <br />
+            The power set of S is denoted by P(S). <br />
+            <strong> Example:</strong><br />
+            1. What is the power set of the set {0,1,2}? <br />
+            <strong>Solution: </strong> The power set P({0,1,2}) is the set of
+            all subsets of {0,1,2}. <br />
+            Hence, P({0,1,2}) ={∅,{0},{1},{2},{0,1},{0,2},{1,2},{0,1,2}}.
+            <br /><br />
+            2. What is the power set of the set {∅}? <br />
+            <strong>Solution:</strong> The empty set has exactly one subset,
+            namely, itself. <br />
+            Consequently, P(∅) = {∅}. The set {∅} has exactly two subsets,
+            namely, ∅ and the set {∅} itself. Therefore, P({∅}) ={∅,{∅}}. If a
+            set has n elements, then its power set has 2n elements.
+          </p>
+
+          <a id="practice-q2"></a>
+          <a
+            href="practicequestion3.html"
+            target="_blank"
+            class="practiceq-link"
+            >practice questions here</a
+          >
+
+          <div class="navigation">
+            <button class="next-button">
+              <a href="typesOfSets.html">Back</a>
+            </button>
+            <button class="next-button">
+              <a href="setOperations.html">Next Page</a>
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

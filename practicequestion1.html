@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice questions 1</title>
+    <style>
+      label {
+        display: block;
+      }
+      h2 {
+        text-align: center;
+        color: rgb(171, 116, 223);
+      }
+      .exit-buttons {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .quiz {
+        margin: 30px;
+        border: 2px solid blueviolet;
+        border-radius: 23px;
+        padding: 23px;
+      }
+      .feedback {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h2>Different Kinds of Sets and Their Representations</h2>
+      <div class="quiz">
+        <form action="">
+          <h4>
+            Q1: Which of the following represents the set of all natural
+            numbers?
+          </h4>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" /> Z
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="true" /> N
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" /> Q
+          </label>
+          <label>
+            <input type="radio" name="question1" id="" data-correct="false" /> R
+          </label>
+          <div class="feedback" id="feedback1"></div>
+        </form>
+
+        <form action="">
+          <h4>Q2: What is Z typically used to represent?</h4>
+          <label
+            ><input type="radio" name="question2" data-correct="false" />Set of
+            real numbers
+          </label>
+          <label
+            ><input type="radio" name="question2" data-correct="false" />Set of
+            irrational numbers</label
+          >
+          <label
+            ><input type="radio" name="question2" data-correct="true" />Set of
+            integers</label
+          >
+          <label
+            ><input type="radio" name="question2" data-correct="false" />Set of
+            complex numbers
+          </label>
+          <div class="feedback" id="feedback2"></div>
+        </form>
+
+        <form action="">
+          <h4>Q3: Which set is represented by Q?</h4>
+          <label
+            ><input type="radio" name="question3" data-correct="true" />Set of
+            real numbers
+          </label>
+          <label
+            ><input type="radio" name="question3" data-correct="false" />Set of
+            irrational numbers</label
+          >
+          <label
+            ><input type="radio" name="question3" data-correct="false" />Set of
+            integers</label
+          >
+          <label
+            ><input type="radio" name="question3" data-correct="false" />Set of
+            complex numbers
+          </label>
+          <div class="feedback" id="feedback3"></div>
+        </form>
+
+        <form action="">
+          <h4>Q4: What type of set is represented by R?</h4>
+          <label
+            ><input type="radio" name="question4" data-correct="false" />Complex
+            numbers
+          </label>
+          <label
+            ><input type="radio" name="question4" data-correct="true" />Real
+            numbers</label
+          >
+          <label
+            ><input type="radio" name="question4" data-correct="false" />Natural
+            numbers
+          </label>
+          <label
+            ><input
+              type="radio"
+              name="question4"
+              data-correct="false"
+            />Irrational numbers
+          </label>
+          <div class="feedback" id="feedback4"></div>
+        </form>
+
+        <form action="">
+          <h4>Q5: Which symbol represents the set of all complex numbers?</h4>
+          <label
+            ><input type="radio" name="question5" data-correct="false" />C
+          </label>
+          <label
+            ><input
+              type="radio"
+              name="question5"
+              data-correct="false"
+            />Q</label
+          >
+          <label
+            ><input type="radio" name="question5" data-correct="true" />Z</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question5"
+              data-correct="false"
+            />N</label
+          >
+          <div class="feedback" id="feedback5"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q6: Which notation is used in the expression A={x∣x is an even
+            number}?
+          </h4>
+          <label>
+            <input type="radio" name="qestion6" id="" data-correct="false" />
+            Roster method
+          </label>
+          <label>
+            <input type="radio" name="qestion6" id="" data-correct="true" />
+            Set-builder notation
+          </label>
+          <label>
+            <input type="radio" name="qestion6" id="" data-correct="false" />
+            Interval notation
+          </label>
+          <label>
+            <input type="radio" name="qestion6" id="" data-correct="false" />
+            List notation
+          </label>
+          <div class="feedback" id="feedback6"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q7: How is the set of all integers greater than 3 expressed in
+            interval notation?
+          </h4>
+          <label
+            ><input type="radio" name="question7" data-correct="true" />(3,∞)
+          </label>
+          <label
+            ><input type="radio" name="question7" data-correct="false" />[3,∞)
+          </label>
+          <label
+            ><input type="radio" name="question7" data-correct="false" />{x∣x>3}
+          </label>
+          <label
+            ><input
+              type="radio"
+              name="question7"
+              data-correct="false"
+            />{3,4,5,...}
+          </label>
+          <div class="feedback" id="feedback7"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q8: How is the set A={2,4,6,8} written using the roster method?
+          </h4>
+          <label
+            ><input type="radio" name="question8" data-correct="false" />A=
+            {x∣x is an even number}
+          </label>
+          <label
+            ><input type="radio" name="question8" data-correct="false" />A=
+            (2,8)
+          </label>
+          <label
+            ><input type="radio" name="question8" data-correct="true" />A=
+            {2,4,6,8}</label
+          >
+          <label
+            ><input type="radio" name="question8" data-correct="false" />A=
+            [2,8]
+          </label>
+          <div class="feedback" id="feedback8"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q9: Which method lists each element individually within curly
+            brackets?
+          </h4>
+          <label
+            ><input type="radio" name="question9" data-correct="true" />Interval
+            notation
+          </label>
+          <label
+            ><input type="radio" name="question9" data-correct="false" />Roster
+            method</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question9"
+              data-correct="false"
+            />Set-builder notation
+          </label>
+          <label
+            ><input
+              type="radio"
+              name="question9"
+              data-correct="false"
+            />Predicate notation
+          </label>
+          <div class="feedback" id="feedback9"></div>
+        </form>
+
+        <form action="">
+          <h4>
+            Q10: What is the correct interval notation for all real numbers
+            between -1 and 1, excluding -1 and including 1?
+          </h4>
+          <label
+            ><input
+              type="radio"
+              name="question10"
+              data-correct="false"
+            />[−1,1]</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question10"
+              data-correct="false"
+            />(−1,1)</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question10"
+              data-correct="true"
+            />(−1,1]</label
+          >
+          <label
+            ><input
+              type="radio"
+              name="question10"
+              data-correct="false"
+            />[−1,1)</label
+          >
+          <div class="feedback" id="feedback10"></div>
+        </form>
+        <br />
+        <br />
+      </div>
+      <br />
+    </div>
+    <script src="jscript/quiz1.js"></script>
+  </body>
+</html>
